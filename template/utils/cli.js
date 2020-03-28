@@ -18,10 +18,10 @@ module.exports = meow(
 
 	Examples
 	  ${green(`{{name}}`)} ${cyan(`command`)}
-	  ${green(`{{name}}`)} ${yellow(`--sort`)}
+	  ${green(`{{name}}`)} ${yellow(`--option`)}
 
 	❯ You can also run command + option at once:
-	  ${green(`{{name}}`)} ${cyan(`command`)} ${yellow(`-x`)}
+	  ${green(`{{name}}`)} ${cyan(`command`)} ${yellow(`-o`)}
 `,
 	{
 		booleanDefault: undefined,
