@@ -12,7 +12,7 @@
 ## Install
 
 ```sh
-npm install {{name}}
+npm install -g {{name}}
 ```
 
 <br>
@@ -22,7 +22,7 @@ npm install {{name}}
 ## Usage
 
 ```js
-const {{_ "camelCase" name}} = require('{{name}}');
+{{name}} <command> [options]
 ```
 
 <br>
