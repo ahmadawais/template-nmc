@@ -9,7 +9,7 @@ git remote add origin https://github.com/ahmadawais/{{name}}.git
 
 # npm stuff.
 npm install ora meow chalk cli-welcome cli-check-node cli-handle-unhandled
-npm install -D ava execa
+npm install -D ava execa prettier
 
 # Delete yourself, bash script.
 rm -- "$0"
