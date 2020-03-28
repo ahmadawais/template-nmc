@@ -1,0 +1,35 @@
+{
+	"name": "{{name}}",
+	"version": "{{version}}",
+	"description": "{{description}}",
+	"license": "MIT",
+	"repository": "ahmadawais/{{name}}",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"engines": {
+		"node": ">=12.x"
+	},
+	"bin": {
+		"{{name}}": "index.js"
+	},
+	"files": [
+		"index.js",
+		"utils/*"
+	],
+	"keywords": [
+		"{{name}}",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"devDependencies": {
+		"prettier": "^2.0.2"
+	},
+	"scripts": {
+		"test": "ava",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
+}
