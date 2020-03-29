@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Create the repo with name and description.
-gh re --new "{{name}}" --description "{{description}}"
+gh re --new "{{name}}" --description "{{description}}" --homepage "https://twitter.com/MrAhmadAwais/"
 
 # Git stuff.
 git init
