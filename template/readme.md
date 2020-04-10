@@ -13,6 +13,9 @@
 
 ```sh
 npm install -g {{name}}
+
+# OR.
+npx {{name}}
 ```
 
 <br>
@@ -21,7 +24,7 @@ npm install -g {{name}}
 
 ## Usage
 
-```js
+```sh
 {{name}} <command> [options]
 ```
 
