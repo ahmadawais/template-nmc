@@ -11,7 +11,7 @@
 
 ## Install
 
-Install the template locally with:
+Install with the [template](https://github.com/fabiospampinato/template) CLI locally:
 
 ```sh
 template install ahmadawais/template-nmc nmc
